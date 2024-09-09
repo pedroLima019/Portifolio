@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Archivo", sans-serif;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  z-index: 1100;
+}
+
+.header-container {
+  background: #333eee;
+  width: 100%;
+  height: 4rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container li {
+  padding: 10px;
+}
+
+.links-container li a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media img {
+  margin: 0 10px;
+  width: 35px;
+}
+
+.social-media img:nth-child(3) {
+  width: 40px;
+}
+
+.main-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.text-content h3 {
+  color: white;
+  font-size: 60px;
+}
+
+.text-content p {
+  margin: 35px 0px;
+  color: #ababab;
+  font-size: 20px;
+}
+
+.text-content strong {
+  color: #333eee;
+}
+
+.btn-service {
+  width: 200px;
+  background: #333eee;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-service a {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.btn-service:hover {
+  background: #101cc4bb;
+}
+
+.img-content {
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-content img {
+  width: 100%;
+}
