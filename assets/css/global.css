@@ -209,3 +209,18 @@
   font-weight: 100;
   line-height: 30px;
 }
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.social-media-icons img {
+  width: 50px;
+}
+
+.social-media-icons img:nth-child(3) {
+  width: 60px;
+}

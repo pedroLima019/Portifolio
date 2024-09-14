@@ -81,10 +81,15 @@
 
   .img-person {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
   }
   .img-person img {
-    border-radius: 0;
+    border-radius: 10px 10px 0px 0px;
+    
+  }
+
+  .about-container {
+    padding: 0;
   }
 
   .about-text {
@@ -123,6 +128,7 @@
     font-size: 15px;
   }
 
+
   .about-text h5 {
     font-size: 18px;
   }
@@ -137,6 +143,14 @@
   .about-text p {
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .social-media-icons img {
+    width: 40px;
+  }
+
+  .social-media-icons img:nth-child(3) {
+    width: 50px;
   }
 }
 
@@ -160,8 +174,6 @@
     padding: 20px;
   }
 
- 
-
   .about-content {
     padding: 0px;
   }
@@ -172,6 +184,14 @@
 
   .about-text h3 {
     font-size: 20px;
+  }
+
+  .social-media-icons img {
+    width: 30px;
+  }
+
+  .social-media-icons img:nth-child(3) {
+    width: 40px;
   }
 }
 
