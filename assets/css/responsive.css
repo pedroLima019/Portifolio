@@ -116,7 +116,14 @@
   .experience-content .card p {
     color: #ffff;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  footer,
+  p {
+    font-size: 18px;
+    text-align: center;
   }
 }
 
@@ -199,7 +206,7 @@
   .experience-container {
     padding: 20px;
   }
-  
+
   .experience-container h1 {
     text-align: center;
     font-size: 35px;
@@ -228,6 +235,12 @@
   .experience-content .card p {
     font-size: 10px;
     line-height: 15px;
+  }
+
+  footer,
+  p {
+    font-size: 15px;
+    text-align: center;
   }
 }
 
@@ -267,6 +280,12 @@
   .experience-content .card p {
     font-size: 10px;
     line-height: 15px;
+  }
+
+  footer,
+  p {
+    font-size: 15px;
+    text-align: center;
   }
 }
 
@@ -321,6 +340,12 @@
   .experience-content .card p {
     font-size: 10px;
     line-height: 15px;
+  }
+
+  footer,
+  p {
+    font-size: 10px;
+    text-align: center;
   }
 }
 
