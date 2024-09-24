@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    position:absolute;
+    position: absolute;
     padding: 30px;
     top: 70px;
     left: 0;
@@ -95,6 +95,29 @@
     width: 100%;
     text-align: center;
   }
+  .banner-skills {
+    margin: 20px;
+  }
+
+  .skills-img {
+    grid-template-columns: repeat(4, 2fr);
+  }
+
+  .experience-content {
+    flex-direction: column;
+  }
+
+  .experience-content .card h2 {
+    margin: 20px 0;
+    font-size: 35px;
+    color: #ffff;
+  }
+
+  .experience-content .card p {
+    color: #ffff;
+    font-weight: 200;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -152,8 +175,8 @@
   }
 
   .skills-container {
-    padding: 30px;
     width: 100%;
+    padding: 20px;
   }
 
   .skills-container h1 {
@@ -171,6 +194,40 @@
 
   .banner-skills {
     margin: 10px;
+  }
+
+  .experience-container {
+    padding: 20px;
+  }
+  
+  .experience-container h1 {
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+  }
+  .experience-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .experience-content .card {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .experience-content .card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .experience-content .card h2 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  .experience-content .card p {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 
@@ -191,6 +248,25 @@
     width: 40px;
     height: 40px;
     object-fit: contain;
+  }
+  .experience-content .card {
+    height: 300px;
+    padding: 15px;
+  }
+
+  .experience-content .card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .experience-content .card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .experience-content .card p {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 
@@ -217,6 +293,34 @@
 
   .social-media-icons img:nth-child(3) {
     width: 40px;
+  }
+
+  .experience-container {
+    padding: 20px;
+  }
+  .experience-content {
+    padding: 10px;
+  }
+
+  .experience-content .card {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .experience-content .card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .experience-content .card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .experience-content .card p {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 
