@@ -236,6 +236,10 @@
     font-size: 10px;
     line-height: 15px;
   }
+  .experience-content .card a {
+    font-size: 13px;
+    padding: 8px;
+  }
 
   footer,
   p {
