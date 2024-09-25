@@ -29,16 +29,20 @@
     <header class="header-container">
       <nav class="nav-content" id="nav-content">
         <div class="logo">
-          <img src="assets/img/logo.png" alt="logo Pedro Lima" />
+          <a href="#Home"
+            ><img src="assets/img/logo.png" alt="logo Pedro Lima"
+          /></a>
         </div>
         <div class="hamburger" id="hamburger">
           <span class="material-symbols-outlined"> menu </span>
         </div>
         <ul class="links-container" id="links-container">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Sobre">Sobre</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Servicos">Serviços</a></li>
+          <li><a href="#Contato">Contato</a></li>
+
         </ul>
         <div class="social-media">
           <img src="assets/img/el_linkedin.png" alt="linkedin" />
@@ -48,7 +52,7 @@
       </nav>
     </header>
     <main class="main-container">
-      <section class="home-container">
+      <section class="home-container" id="Home">
         <div class="home-content">
           <div class="text-content">
             <h3>
@@ -71,7 +75,7 @@
           </div>
         </div>
       </section>
-      <section class="about-container">
+      <section class="about-container" id="Sobre">
         <div class="about-content">
           <div class="img-person">
             <img src="assets/img/foto.jpg" alt="" />
@@ -97,7 +101,7 @@
         </div>
       </section>
     </main>
-    <section class="skills-container">
+    <section class="skills-container" id="Skills">
       <h1>Skills</h1>
       <div class="skills-content">
         <div class="skills-img">
@@ -128,8 +132,8 @@
         </div>
       </div>
     </section>
-    <section class="experience-container">
-      <h1>Experiências</h1>
+    <section class="experience-container" id="Servicos">
+      <h1>Serviços</h1>
       <div class="experience-content">
         <div class="card">
           <img src="assets/img/SEO.png" alt="SEO" />
@@ -146,10 +150,11 @@
           <img src="assets/img/web.png" alt="Desenvolvimento Web" />
           <h2>Desenvolvimento Web</h2>
           <p>
-            SEO (Search Engine Optimization) é o processo de otimizar sites e
-            conteúdo para melhorar sua visibilidade nos motores de busca, como o
-            Google. O objetivo é aumentar o tráfego orgânico, tornando o site
-            mais acessível e atraente para os usuários e motores de busca.
+            Desenvolvimento web envolve a criação e manutenção de sites e
+            aplicativos para a web. Isso inclui o design, a codificação e a
+            implementação de funcionalidades. O objetivo é criar sites
+            funcionais, responsivos e acessíveis, que proporcionem uma
+            experiência eficiente e agradável para os usuários.
           </p>
           <a href="">Saíba Mais</a>
         </div>
@@ -157,13 +162,32 @@
           <img src="assets/img/person.png" alt="UX&UI" />
           <h2>UX&UI</h2>
           <p>
-            SEO (Search Engine Optimization) é o processo de otimizar sites e
-            conteúdo para melhorar sua visibilidade nos motores de busca, como o
-            Google. O objetivo é aumentar o tráfego orgânico, tornando o site
-            mais acessível e atraente para os usuários e motores de busca.
+            UX (User Experience) e UI (User Interface) são disciplinas focadas
+            na interação entre usuários e produtos digitais. UX e UI trabalham
+            para criar produtos digitais que sejam não apenas bonitos, mas
+            também fáceis e agradáveis de usar.
           </p>
           <a href="">Saíba Mais</a>
         </div>
+      </div>
+    </section>
+    <section class="formulario" id="Contato">
+      <h1>Faça seu orçamento</h1>
+      <p>
+        Preencha o formulário abaixo e receba um orçamento personalizado, sob
+        medida para as necessidades do seu projeto
+      </p>
+
+      <div class="form-section">
+        <form action="">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" placeholder="Digite seu nome" required />
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" placeholder="Digite seu e-mail" required />
+          <label for="text">Como posso de ajudar ?</label>
+          <textarea name="text" id="text" rows="10" cols="30"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
       </div>
     </section>
     <footer>
