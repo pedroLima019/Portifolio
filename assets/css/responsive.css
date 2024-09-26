@@ -48,7 +48,7 @@
   }
 
   .links-container li a::after {
-   display: none;
+    display: none;
   }
 
   .show {
