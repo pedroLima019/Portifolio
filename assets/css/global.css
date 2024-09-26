@@ -352,8 +352,8 @@ html {
   transform: perspective(1000px) translateZ(1);
 }
 
-.experience-content .card:hover{
-  transform: perspective(1000px) translateZ(10px) scale(1.1); 
+.experience-content .card:hover {
+  transform: perspective(1000px) translateZ(10px) scale(1.1);
 }
 
 .experience-content .card img {
@@ -473,7 +473,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color:#0212f5;
+  background-color: #0212f5;
   padding: 30px;
   color: #ffff;
 }

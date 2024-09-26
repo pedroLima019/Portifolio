@@ -124,6 +124,14 @@
     line-height: 25px;
   }
 
+  .experience-content .card {
+    transform: none;
+  }
+
+  .experience-content .card:hover {
+    transform: none;
+  }
+
   .formulario h1 {
     color: #333eee;
     font-size: 40px;
@@ -410,11 +418,109 @@
 }
 
 @media (max-width: 1024px) {
+  .logo img {
+    width: 150px;
+  }
+  .links-container li a {
+    padding: 5px;
+    font-size: 18px;
+  }
+  .social-media img {
+    margin: 0 10px;
+    width: 30px;
+  }
+  .social-media img:nth-child(3) {
+    width: 38px;
+  }
   .text-content h3 {
     font-size: 40px;
   }
 
   .text-content p {
+    font-size: 18px;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-text h3 {
+    font-size: 50px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+
+  .social-media-icons img {
+    width: 40px;
+  }
+
+  .social-media-icons img:nth-child(3) {
+    width: 54px;
+  }
+
+  .skills-container h1 {
+    font-size: 50px;
+  }
+
+  .banner-skills {
+    margin: 25px;
+  }
+
+  .experience-container h1 {
+    font-size: 50px;
+  }
+
+  .experience-content {
+    padding: 15px;
+  }
+
+  .experience-content .card {
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .experience-content .card p {
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .experience-content .card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .experience-content .card img {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .experience-content .card a {
+    padding: 8px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .formulario h1 {
+    font-size: 40px;
+  }
+
+  .formulario p {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+
+  label {
     font-size: 18px;
   }
 }
