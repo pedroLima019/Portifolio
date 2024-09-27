@@ -41,7 +41,7 @@
   }
 
   .about_text h2 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .about_text p {
@@ -52,6 +52,23 @@
 
   .img_SEO img {
     width: 100%;
+  }
+
+  .SEO_beneficios h1 {
+    font-size: 50px;
+  }
+
+  .card_container {
+    flex-direction: column;
+  }
+
+  .card_content {
+    width: 100%;
+    transform: none;
+    padding: 0 30px;
+  }
+  .card_content:hover {
+    transform: none;
   }
 }
 
@@ -82,13 +99,27 @@
   }
 
   .about_text p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
     padding: 10px;
   }
 
   .img_SEO {
     width: 100%;
+  }
+
+  .SEO_beneficios {
+    padding: 10px;
+  }
+
+  .SEO_beneficios h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .card_content p {
+    line-height: 20px;
+    font-size: 15px;
   }
 }
 
@@ -104,13 +135,29 @@
   }
 
   .about_text h2 {
-   font-size: 30px;
-   margin: 15px;
- }
- .about_text p {
-   font-size: 13px;
-   padding: 0;
- }
+    font-size: 30px;
+    margin: 15px;
+  }
+  .about_text p {
+    font-size: 13px;
+    padding: 0;
+  }
+  .SEO_beneficios {
+    padding: 0px;
+  }
+  .SEO_beneficios h1 {
+    font-size: 25px;
+  }
+
+  .card_content h3 {
+    font-size: 20px;
+    margin: 3px 0px;
+  }
+
+  .card_content p {
+    line-height: 20px;
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -123,7 +170,7 @@
     margin: 20px 0;
   }
   .SEO_content {
-    padding: 20px;
+    padding: 40px;
   }
 
   .about_text h2 {
@@ -133,5 +180,9 @@
   .about_text p {
     font-size: 12px;
     padding: 0;
+  }
+
+  .SEO_beneficios {
+    padding: 0px;
   }
 }

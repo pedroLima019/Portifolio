@@ -20,7 +20,7 @@
   display: flex;
   padding: 50px;
   align-items: center;
-  background: #333eee;
+  background: #000000;
 }
 
 .text_container {
@@ -42,7 +42,7 @@
 }
 
 .btn-service {
-  background: #000000;
+  background: #333eee;
 }
 
 .img_container {
@@ -54,7 +54,7 @@
 }
 
 .img_container img {
-  width: 100%;
+  width: 70%;
 }
 
 .SEO_about {
@@ -87,7 +87,7 @@
 .about_text h2 {
   font-size: 60px;
   margin: 30px 0;
-  color: #333eee;
+  color: #ffff;
 }
 
 .about_text p {
@@ -95,4 +95,61 @@
   line-height: 30px;
   color: #ffff;
   font-weight: 300;
+}
+
+.SEO_beneficios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #1a1919;
+}
+
+.SEO_beneficios h1 {
+  font-size: 60px;
+  color: #ffff;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #ffff;
+  background: #333eee;
+  border-radius: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transform: perspective(1000px) translateZ(1);
+}
+
+.card_content:hover{
+  transform: perspective(1000px) translateZ(10px) scale(1.1);
+}
+
+.card_content h3{
+   font-size: 25px;
+   margin: 20px 0px;
+}
+
+.card_content p {
+   margin: 20px 0;
+   font-weight: 200;
+   line-height: 20px;
 }
