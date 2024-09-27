@@ -13,6 +13,6 @@ Este portfólio foi construído utilizando as seguintes tecnologias:
 ## Funcionalidades
 
 - **Página Inicial**: Introdução e visão geral dos meus trabalhos.
-- **Projetos**: Exibição de projetos com links para demonstrações e repositórios no GitHub.
+- **Solicitação de serviços**: Exibição de serviços e solicitação de serviços.
 - **Sobre Mim**: Seção dedicada à minha biografia, experiência e habilidades.
 - **Contato**: Formulário de contato funcional para quem deseja entrar em contato comigo.
