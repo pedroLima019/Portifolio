@@ -22,8 +22,9 @@
 
     <!-- JS -->
     <script src="js/Script.js" defer></script>
+    <script src="js/server.js" defer></script>
 
-  <title>Pedro Lima</title>
+    <title>Pedro Lima</title>
   </head>
   <body>
     <header class="header-container">
@@ -182,24 +183,39 @@
       </p>
 
       <div class="form-section">
-        <form action="">
-          <label for="nome">Nome:</label>
+        <form
+          action="https://formsubmit.co/pedroliveiralima21@gmail.com"
+          method="post"
+        >
+          <label for="name">Nome:</label>
           <input
             type="text"
-            name="nome"
+            name="name"
             placeholder="Digite seu nome"
             required
           />
-          <label for="email">E-mail:</label>
+          <label for="E-mail">E-mail:</label>
           <input
-            type="text"
+            type="email"
             name="email"
             placeholder="Digite seu e-mail"
             required
           />
-          <label for="text">Como posso de ajudar ?</label>
-          <textarea name="text" id="text" rows="10" cols="30"></textarea>
-          <button type="submit">Enviar</button>
+
+          <label for="message">Mensagem:</label>
+          <textarea
+            cols="30"
+            rows="10"
+            name="message"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+
+          <button type="submit">ENVIAR</button>
+
+          <input type="hidden" name="_subject" value="Novo Contato!" />
+          <input type="text" name="_honey" style="display: none" />
+          <input type="hidden" name="_captcha" value="false" />
         </form>
       </div>
     </section>
