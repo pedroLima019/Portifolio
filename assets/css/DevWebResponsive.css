@@ -1,0 +1,158 @@
+@media (max-width: 768px) {
+  .Dev_container {
+    padding: 20px;
+  }
+
+  .Dev_content {
+    flex-direction: column;
+  }
+
+  .Dev_text {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .Dev_text h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .Dev_text p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .img_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_container img {
+    width: 100%;
+  }
+
+  .Dev_about {
+    padding: 20px;
+  }
+
+  .img_DEV {
+    width: 100%;
+  }
+
+  .img_DEV img {
+    width: 100%;
+  }
+
+  .text_container {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .text_container h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .DEV_beneficio {
+    padding: 20px;
+  }
+
+  .DEV_beneficios h1 {
+    font-size: 50px;
+  }
+
+  .card_container {
+    flex-direction: column;
+  }
+
+  .card_content {
+    width: 80%;
+    transform: none;
+    padding: 50px;
+  }
+
+  .card_content:hover {
+    transform: none;
+  }
+  .card_content h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .Dev_text {
+    padding: 15px;
+  }
+
+  .Dev_text h1 {
+    font-size: 30px;
+  }
+
+  .Dev_text p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .Dev_about {
+    padding: 0px;
+  }
+  .text_container {
+    padding: 10px;
+  }
+  .text_container h2 {
+    font-size: 30px;
+  }
+  .text_container p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .DEV_beneficios {
+    padding: 20px;
+  }
+
+  .DEV_beneficios h1 {
+    font-size: 30px;
+  }
+
+  .card_content h3 {
+    font-size: 20px;
+  }
+
+  .card_content p {
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .card_container {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Dev_text {
+    padding: 0px;
+  }
+
+  .Dev_text p {
+    font-size: 12px;
+  }
+
+  .text_container h2 {
+    font-size: 25px;
+  }
+
+  .DEV_beneficios h1 {
+    font-size: 25px;
+  }
+
+  .card_content p {
+    line-height: 15px;
+    font-size: 12px;
+  }
+
+  .card_content {
+    padding: 20px;
+  }
+}

@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-  event.preventDefault(); // Impede o envio padrão do formulário
+  event.preventDefault(); 
   
   const formData = new FormData(this);
   const data = Object.fromEntries(formData.entries());
 
-  fetch('http://localhost:3000/send-email', { // A URL do seu servidor Node.js
+  fetch('http://localhost:3000/send-email', { 
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
