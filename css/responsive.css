@@ -94,6 +94,11 @@
     padding-right: 00px;
     text-align: left;
   }
+
+  .techs-content {
+    flex-direction: column;
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -181,6 +186,14 @@
   .content {
     width: 250px;
   }
+
+  .techs-title h1 {
+    font-size: 30px;
+  }
+
+  .techs-title p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -264,5 +277,13 @@
 
   .experience-container {
     padding: 0rem;
+  }
+
+  .techs-content {
+    padding: 0rem;
+  }
+
+  .techs-title p {
+    font-size: 13px;
   }
 }
