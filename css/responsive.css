@@ -76,6 +76,24 @@
   .about-img {
     width: 100%;
   }
+
+  .timeline-container::after {
+    left: 20px;
+    height: 620px;
+  }
+
+  .points {
+    left: -20px;
+  }
+
+  .box:nth-child(odd) {
+    padding-left: 0px;
+  }
+
+  .box:nth-child(even) {
+    padding-right: 00px;
+    text-align: left;
+  }
 }
 
 @media (max-width: 425px) {
@@ -133,6 +151,30 @@
 
   .about-text p {
     font-size: 13px;
+  }
+
+  .experience-title h1 {
+    font-size: 30px;
+  }
+
+  .experience-title p {
+    font-size: 15px;
+  }
+
+  .content p {
+    font-size: 11px;
+  }
+
+  .timeline-container::after {
+    left: 20px;
+    height: 760px;
+  }
+  .points {
+    bottom: 215px;
+  }
+
+  .content {
+    width: 250px;
   }
 }
 
@@ -213,5 +255,9 @@
   .background-img-01 {
     width: 200px;
     height: 200px;
+  }
+
+  .experience-container {
+    padding: 0rem;
   }
 }

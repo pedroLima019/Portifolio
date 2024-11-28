@@ -115,7 +115,7 @@ a {
 
 @keyframes blink {
   50% {
-      border-color: transparent;
+    border-color: transparent;
   }
 }
 
@@ -165,7 +165,7 @@ a {
 .about-text p {
   color: var(--color-font);
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   margin-bottom: 1.5rem;
 }
 
@@ -176,6 +176,7 @@ a {
 }
 
 .social-media img {
+  width: 35px;
   margin: 0 10px;
 }
 
@@ -197,4 +198,107 @@ a {
 .about-img img {
   width: 400px;
   height: 400px;
+}
+
+.experience-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.experience-title {
+  text-align: center;
+}
+
+.experience-title h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--color-font);
+}
+
+.experience-title p {
+  font-size: 20px;
+  font-weight: 100;
+  color: var(--color-segundary);
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.timeline-container::after {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 650px;
+  border-radius: 5px;
+  left: 488px;
+  top: 40px;
+  background: var(--color-font);
+}
+
+.timeline-container .box {
+  margin: 2rem;
+  color: var(--color-font);
+  position: relative;
+}
+
+.box:nth-child(odd) {
+  padding-left: 500px;
+  text-align: left;
+}
+
+.box:nth-child(even) {
+  padding-right: 500px;
+  text-align: right;
+}
+
+.box:last-child {
+  margin-bottom: 0px;
+}
+
+.points {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--color-segundary);
+  position: absolute;
+  left: 448px;
+  z-index: 1;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-segundary);
+  margin-bottom: 15px;
+}
+
+.year:nth-child(2) {
+  top: 50px;
+}
+
+.content {
+  padding: 20px;
+  background: #2f2f31;
+  width: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 10px 15px 5px #00000017;
+}
+
+.content h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--color-segundary);
+}
+
+.content p {
+  font-size: 12px;
+  font-weight: 200;
 }
