@@ -153,6 +153,10 @@
     font-size: 13px;
   }
 
+  .experience-container {
+    padding: 0rem;
+  }
+
   .experience-title h1 {
     font-size: 30px;
   }
@@ -167,10 +171,11 @@
 
   .timeline-container::after {
     left: 20px;
-    height: 760px;
+    height: 780px;
   }
+
   .points {
-    bottom: 215px;
+    bottom: 240px;
   }
 
   .content {

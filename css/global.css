@@ -226,6 +226,7 @@ a {
 }
 
 .timeline-container {
+  top: 4rem;
   position: relative;
   max-width: 100%;
 }
@@ -234,7 +235,7 @@ a {
   content: " ";
   position: absolute;
   width: 1px;
-  height: 650px;
+  height: 600px;
   border-radius: 5px;
   left: 488px;
   top: 40px;
@@ -294,8 +295,14 @@ a {
 .content h3 {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 5px;
   color: var(--color-segundary);
+}
+
+.content strong {
+  font-size: 12px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .content p {
