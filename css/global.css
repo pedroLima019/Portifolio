@@ -441,7 +441,7 @@ a {
   color: var(--color-segundary);
   font-size: 20px;
   font-weight: 500;
-  margin-top: 10px ;
+  margin-top: 10px;
 }
 
 .card-project p {
@@ -450,7 +450,6 @@ a {
   font-size: 12px;
   font-weight: 200;
   padding: 10px;
-  margin: 10px 0;
 }
 
 .card-project a {
@@ -466,3 +465,21 @@ a {
 .card-project a:hover {
   background: #a14ef0;
 }
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+footer h3 {
+  color: var(--color-font);
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+
