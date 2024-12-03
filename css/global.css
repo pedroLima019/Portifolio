@@ -150,7 +150,7 @@ a {
 .about-title p {
   color: var(--color-segundary);
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .about-text {
@@ -221,7 +221,7 @@ a {
 
 .experience-title p {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
   color: var(--color-segundary);
 }
 
@@ -332,7 +332,7 @@ a {
 
 .techs-title p {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
   color: var(--color-segundary);
 }
 
@@ -384,4 +384,85 @@ a {
   width: 40px;
   margin: 8px;
   object-fit: contain;
+}
+
+.projects-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.projects-title {
+  text-align: center;
+}
+
+.projects-title h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--color-font);
+}
+
+.projects-title p {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--color-segundary);
+}
+
+.projects-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border: 1px solid var(--color-segundary);
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.card-project img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.card-project h1 {
+  text-align: center;
+  color: var(--color-segundary);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px ;
+}
+
+.card-project p {
+  text-align: center;
+  color: var(--color-font);
+  font-size: 12px;
+  font-weight: 200;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.card-project a {
+  width: 200px;
+  text-align: center;
+  background: var(--color-segundary);
+  border-radius: 10px;
+  font-size: 12px;
+  margin-bottom: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.card-project a:hover {
+  background: #a14ef0;
 }

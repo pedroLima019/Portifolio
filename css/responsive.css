@@ -99,6 +99,14 @@
     flex-direction: column;
     padding: 1rem;
   }
+
+  .projects-title {
+    margin-bottom: 20px;
+  }
+
+  .projects-cards {
+    padding: 0rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -193,6 +201,32 @@
 
   .techs-title p {
     font-size: 15px;
+  }
+
+  .projects-main {
+    padding: 0rem;
+  }
+
+  .projects-title h1 {
+    font-size: 30px;
+  }
+
+  .projects-title p {
+    font-size: 15px;
+  }
+
+  .card-project h1 {
+    font-size: 15px;
+  }
+
+  .card-project p {
+    font-size: 10px;
+    padding: 1px;
+    margin: 10px 0;
+  }
+
+  .card-project a {
+    font-size: 10px;
   }
 }
 
