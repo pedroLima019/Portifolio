@@ -15,9 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
     />
 
-    <!-- JS -->
-    <script defer src="js/script.js"></script>
-
     <title>Pedro Lima - Portifólio</title>
   </head>
   <body>
@@ -27,9 +24,9 @@
           <img src="assets/img/logo.png" alt="Logo Pedro Lima " />
         </div>
 
-        <span class="material-symbols-outlined"> menu </span>
+        <span class="material-symbols-outlined" id="menu-toggle"> menu </span>
 
-        <ul class="menu-container">
+        <ul class="menu-container" id="menu">
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Experience</a></li>
@@ -68,10 +65,34 @@
               desenvolvimento de software de qualidade.
             </p>
             <div class="social-media">
-              <img src="assets/img/wpp.png" alt="WhatsApp" />
-              <img src="assets/img/gmail.png" alt="Gmail" />
-              <img src="assets/img/linkedin.png" alt="Linkedin" />
-              <img src="assets/img/github.png" alt="GitHub" />
+              <a
+                href="https://wa.me/19989026581"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/img/wpp.png" alt="WhatsApp" />
+              </a>
+              <a
+                href="https://mail.google.com/mail/u/1/#inbox"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/img/gmail.png" alt="Gmail" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pedrohenrilima/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/img/linkedin.png" alt="Linkedin" />
+              </a>
+              <a
+                href="https://github.com/pedroLima019"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/img/github.png" alt="GitHub" />
+              </a>
             </div>
           </div>
           <div class="about-img">
@@ -230,19 +251,36 @@
     <footer>
       <h3>Redes sociais</h3>
       <div class="social-media">
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://mail.google.com/mail/u/1/#inbox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="assets/img/gmail.png" alt="gmail" />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/pedroLima019"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="assets/img/github.png" alt="github" />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://wa.me/19989026581"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="assets/img/wpp.png" alt="WhatsApp" />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/pedrohenrilima/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="assets/img/linkedin.png" alt="linkedin" />
         </a>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

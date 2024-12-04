@@ -1,3 +1,9 @@
+:root {
+  --color-primary: #1c1c1e;
+  --color-segundary: #8a2be2;
+  --color-font: #ffffff;
+}
+
 @media (max-width: 1024px) {
   .background-img {
     width: 350px;
@@ -32,13 +38,13 @@
 }
 
 @media (max-width: 768px) {
+
   .navbar-container span {
     display: block;
     font-size: 40px;
   }
-  .menu-container {
-    display: none;
-  }
+
+  
 
   .main-container {
     padding: 1rem;

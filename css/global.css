@@ -26,6 +26,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--background-color);
+  position: relative;
+  z-index: 10;
 }
 
 .navbar-container {
@@ -42,20 +45,34 @@ header {
 .navbar-container span {
   display: none;
   color: var(--color-font);
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s;
 }
 
-.menu-container li,
-a {
+.menu-container li {
+  margin: 0 1rem;
+}
+
+.menu-container a {
+  text-decoration: none;
   padding: 0.5rem;
   color: var(--color-font);
+  transition: color 0.3s;
 }
 
+.menu-container a:hover {
+  color:var(--color-segundary);
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -481,5 +498,3 @@ footer h3 {
   font-weight: 300;
   margin: 10px 0;
 }
-
-
