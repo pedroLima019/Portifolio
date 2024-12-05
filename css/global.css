@@ -495,19 +495,16 @@ header {
 }
 
 .card-project a {
-  width: 200px;
-  text-align: center;
-  color: var(--color-font);
-  background: var(--color-segundary);
-  border-radius: 5px;
+  width: 50%;
+  display: inline-block;
   padding: 5px;
+  margin: 10px 0;
+  background-color: var(--color-segundary);
+  color: #fff;
+  border-radius: 5px;
   font-size: 12px;
-  margin-bottom: 12px;
-  transition: 0.3s ease-in-out;
-}
-
-.card-project a:hover {
-  background: #a14ef0;
+  text-align: center;
+  cursor: pointer;
 }
 
 footer {
