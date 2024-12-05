@@ -15,9 +15,24 @@
   --color-font: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1c1c1e;
+}
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-segundary);
 }
 
 header {
@@ -28,7 +43,7 @@ header {
   align-items: center;
   justify-content: center;
   background: var(--color-primary);
-  position: fixed; 
+  position: fixed;
   z-index: 10;
 }
 
@@ -71,6 +86,18 @@ header {
 .menu-container a:hover {
   color: var(--color-segundary);
 }
+
+.active-bar {
+  height: 2px;
+  background-color: var(--color-segundary);
+  width: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.2s ease;
+  z-index: 1000;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;

@@ -30,16 +30,17 @@
         <span class="material-symbols-outlined" id="menu-toggle"> menu </span>
 
         <ul class="menu-container" id="menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Technology</a></li>
-          <li><a href="">Projetos</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Technology">Technology</a></li>
+          <li><a href="#Projects">Projetos</a></li>
         </ul>
       </nav>
     </header>
+    <div class="active-bar"></div>
     <main class="main-container">
-      <section class="home-container">
+      <section class="home-container" id="Home">
         <div class="img-container">
           <div class="background-img">
             <img src="assets/img/foto_pedro.png" alt="Foto Pedro Lima" />
@@ -50,7 +51,7 @@
           <p></p>
         </div>
       </section>
-      <section class="about-container">
+      <section class="about-container" id="About">
         <div class="about-title">
           <h1>About</h1>
           <p>um pouco sobre mim...</p>
@@ -76,13 +77,13 @@
                 <img src="assets/img/wpp.png" alt="WhatsApp" />
               </a>
               <a
-              href="mailto:pedroliveiralima21@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="assets/img/gmail.png" alt="Gmail" />
-            </a>
-            
+                href="mailto:pedroliveiralima21@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/img/gmail.png" alt="Gmail" />
+              </a>
+
               <a
                 href="https://www.linkedin.com/in/pedrohenrilima/"
                 target="_blank"
@@ -106,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="experience-container">
+      <section class="experience-container" id="Experience">
         <div class="experience-title">
           <h1>Experience</h1>
           <p>um pouco sobre minha experiência...</p>
@@ -154,7 +155,7 @@
           </div>
         </div>
       </section>
-      <section class="techs-container">
+      <section class="techs-container" id="Technology">
         <div class="techs-title">
           <h1>Technology</h1>
           <p>um pouco sobre as tecnologias que venho estudando...</p>
@@ -165,12 +166,12 @@
             <h4>Tool</h4>
             <p>Ferramentas usadas para aplicações web.</p>
             <div class="img-techs">
-              <img src="assets/img/HTML.png" alt="" />
-              <img src="assets/img/cssIcon.png" alt="" />
-              <img src="assets/img/JSIcon.png" alt="" />
-              <img src="assets/img/NodeIcon.png" alt="" />
-              <img src="assets/img/figma.png" alt="" />
-              <img src="assets/img/ReactIcon.png" alt="" />
+              <img src="assets/img/HTML.png" alt="HTML" />
+              <img src="assets/img/cssIcon.png" alt="CSS" />
+              <img src="assets/img/JSIcon.png" alt="JavaSCript" />
+              <img src="assets/img/NodeIcon.png" alt="Node" />
+              <img src="assets/img/figma.png" alt="Figma" />
+              <img src="assets/img/ReactIcon.png" alt="React" />
             </div>
           </div>
           <div class="cards">
@@ -178,10 +179,10 @@
             <h4>Frameworks</h4>
             <p>Frameworks que estou estudando.</p>
             <div class="img-techs">
-              <img src="assets/img/ReactIcon.png" alt="" />
-              <img src="assets/img/nextjs.png" alt="" />
-              <img src="assets/img/NodeIcon.png" alt="" />
-              <img src="assets/img/typescript.png" alt="" />
+              <img src="assets/img/ReactIcon.png" alt="React" />
+              <img src="assets/img/nextjs.png" alt="Next" />
+              <img src="assets/img/NodeIcon.png" alt="Node" />
+              <img src="assets/img/typescript.png" alt="Type" />
             </div>
           </div>
           <div class="cards">
@@ -189,17 +190,17 @@
             <h4>Expertises</h4>
             <p>Instrumentos empregados cotidianamente em aplicações.</p>
             <div class="img-techs">
-              <img src="assets/img/HTML.png" alt="" />
-              <img src="assets/img/cssIcon.png" alt="" />
-              <img src="assets/img/JSIcon.png" alt="" />
-              <img src="assets/img/git.png" alt="" />
-              <img src="assets/img/figma.png" alt="" />
-              <img src="assets/img/sql.png" alt="" />
+              <img src="assets/img/HTML.png" alt="HTML" />
+              <img src="assets/img/cssIcon.png" alt="CSS" />
+              <img src="assets/img/JSIcon.png" alt="Css" />
+              <img src="assets/img/git.png" alt="Git" />
+              <img src="assets/img/figma.png" alt="Figma" />
+              <img src="assets/img/sql.png" alt="SQL" />
             </div>
           </div>
         </div>
       </section>
-      <section class="projects-main">
+      <section class="projects-main" id="Projects">
         <div class="projects-title">
           <h1>Projects</h1>
           <p>Alguns dos meus projetos pessoas e freelancer...</p>
@@ -213,7 +214,7 @@
               com massas pré-cozidas congeladas, e a noite com delivery de
               massas prontas.
             </p>
-            <a href="">Acessar projeto</a>
+            <a href="https://massascardoso.com/">Acessar projeto</a>
           </div>
           <div class="card-project">
             <img
@@ -226,7 +227,7 @@
               possível comprar e vender ações. O projeto foi desenvolvido com
               HTML, CSS, JavaScript e Node.js
             </p>
-            <a href="">Acessar projeto</a>
+            <a href="https://stock-simulator-ten.vercel.app/">Acessar projeto</a>
           </div>
           <div class="card-project">
             <img src="assets/img/MyMoney.png" alt="My money aplicativo" />
@@ -236,7 +237,7 @@
               ajudar você a controlar suas finanças de forma simples e
               eficiente.
             </p>
-            <a href="">Acessar projeto</a>
+            <a href="https://my-money-pearl.vercel.app/">Acessar projeto</a>
           </div>
           <div class="card-project">
             <img src="assets/img/BarberShop.png" alt="Barber Shop" />
@@ -247,7 +248,7 @@
               informações importantes, como serviços, horários de funcionamento
               e localização.
             </p>
-            <a href="">Acessar projeto</a>
+            <a href="https://barber-shop-zeta-two.vercel.app/">Acessar projeto</a>
           </div>
         </div>
       </section>

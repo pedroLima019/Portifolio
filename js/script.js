@@ -18,3 +18,17 @@ function typeText() {
 }
 
 typeText();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const activeBar = document.querySelector(".active-bar");
+
+  function updateBarWidth() {
+    const scrollPercentage =
+      (window.scrollY / (document.body.scrollHeight - window.innerHeight)) *
+      100;
+    activeBar.style.width = `${Math.min(scrollPercentage, 100)}%`;
+  }
+
+  window.addEventListener("scroll", updateBarWidth);
+  updateBarWidth();
+});
