@@ -32,3 +32,17 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", updateBarWidth);
   updateBarWidth();
 });
+
+ScrollReveal().reveal('.img-container', { delay: 1000 });
+ScrollReveal().reveal('.text-container', { delay: 1000 });
+ScrollReveal().reveal('.about-title', { delay: 1000 });
+ScrollReveal().reveal('.about-text', { delay: 1000 });
+ScrollReveal().reveal('.social-media', { delay: 1000 });
+ScrollReveal().reveal('.about-img', { delay: 1000 });
+ScrollReveal().reveal('.experience-title', { delay: 1000 });
+ScrollReveal().reveal('.box', { delay: 1000 });
+ScrollReveal().reveal('.techs-title', { delay: 1000 });
+ScrollReveal().reveal('.cards', { delay: 1000 });
+ScrollReveal().reveal('.projects-title', { delay: 1000 });
+ScrollReveal().reveal('.card-project', { delay: 1000 });
+ScrollReveal().reveal('.social-media', { delay: 1000 });
