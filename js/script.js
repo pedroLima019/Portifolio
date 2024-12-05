@@ -1,3 +1,8 @@
+document.getElementById("menu-toggle").addEventListener("click", function () {
+  const menuContainer = document.getElementById("menu");
+  menuContainer.classList.toggle("active");
+});
+
 const textContainer = document.querySelector(".text-container p");
 const fullText =
   "Olá, eu sou o <strong>Pedro Lima.</strong> Desenvolvedor de Software.";

@@ -17,6 +17,7 @@
 
 body {
   background-color: #1c1c1e;
+
 }
 
 header {
@@ -26,8 +27,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--background-color);
-  position: relative;
+  background: var(--color-primary);
+  position: fixed; 
   z-index: 10;
 }
 
@@ -54,9 +55,6 @@ header {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  transition: transform 0.3s ease-in-out, opacity 0.3s;
 }
 
 .menu-container li {
@@ -71,7 +69,7 @@ header {
 }
 
 .menu-container a:hover {
-  color:var(--color-segundary);
+  color: var(--color-segundary);
 }
 .main-container {
   display: flex;
@@ -334,7 +332,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .techs-title {
@@ -472,8 +470,10 @@ header {
 .card-project a {
   width: 200px;
   text-align: center;
+  color: var(--color-font);
   background: var(--color-segundary);
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 5px;
   font-size: 12px;
   margin-bottom: 12px;
   transition: 0.3s ease-in-out;
