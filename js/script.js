@@ -14,7 +14,7 @@ menuLinks.forEach((link) => {
 
 const textContainer = document.querySelector(".text-container p");
 const fullText =
-  "Olá, eu sou o <strong>Pedro Lima.</strong> Desenvolvedor de Software.";
+  "<strong>Pedro Lima.</strong> Desenvolvedor de Software Full-Stack.";
 let charIndex = 0;
 
 function typeText() {
